@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Permanent+Marker&display=swap');
+
+body {
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 700;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 70;
+}
+
+#logo div{
+	display: inline-block;
+	height: 55px;
+	margin-bottom: 70px;
+}
+
+
+img.logo {
+	border-radius: 55px;
+	width: 200px;
+	-webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+div #logo_name {
+	margin: 15px;
+	height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+p.logo {
+	width: 300px;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 333;
+	font-size: 20px;
+	color: white;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+}
+
+a {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 500;
+	letter-spacing: 3px;
+
+}
+
+a.error {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: inherit;
+	color: black;
+}
+
+header, footer {
+  background-color: #2f847c;
+  padding: 10px;
+}
+
+#menu1{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+
+#menu1 ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
+}
+
+#menu1 > ul::after{
+display: block;
+width: 100%;
+height: 0px;
+clear: both;
+content: " ";
+}
+
+#menu1 ul li{
+position: relative;
+display: block;
+float: left;
+width: auto;
+height: auto;
+}
+
+#menu1 ul li a{
+display: block;
+padding: 9px 25px 0px 25px;
+font-size: 13px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+height: 36px;
+box-sizing: border-box;
+color: white;
+}
+
+#menu1 ul li ul{
+position: absolute;
+top: 36px;
+left: 0px;
+display: none;
+width: 200px;
+background: #2f847c;
+}
+
+#menu1 ul li:hover ul{
+display: block;
+}
+
+#menu1 ul li ul li{
+float: none;
+width: 100%;
+}
+
+#menu1 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #ffffff;
+color: white;
+}
+
+#menu1 ul li ul li:first-child a{
+border-top: 0px;
+}
+
+main {
+  padding: 10px;
+  background-color: #2f847c;
+}
+
+div.elfsight-app-0c6cd586-c4bd-4ff6-ac78-a3fc9d7bd676 {
+	background-color: #2f847c;
+	margin-top: 111px;
+}
+
+div.error {
+	background-color: #2f847c;
+	margin-top: 300px;
+}
+
+.carousele {
+	margin: 10px;
+}
+.carousele div img {
+	width: 100%
+}
+
+#about:before, #service:before, #service1:before, #service2:before, #service3:before, #service4:before, #service5:before, #service6:before, #service7:before, #service8:before, #service9:before, #contacts:before, #error:before {
+	display: block;
+	content: "";
+	height: 195px;
+	margin: -195px 0 0;
+}
+
+div.post_page {
+	margin-top: 175px;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  width: auto;
+}
+
+.post img {
+  margin: 20px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+
+.post-info {
+color: grey;
+}
+
+.info {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.video iframe {
+	width: 100%;
+	max-width: 560px;
+	height: 315px;
+}
+
+@media(max-width: 680px) {
+	.video iframe {
+		max-width: 100%;
+		height: 315px;
+	}
+}
+
+@media(max-width: 4800px) {
+	.video iframe {
+		height: 250px;
+	}
+}
+
+.address {
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+.footer-column a {
+	font-size: 17px;
+	line-height: 1.1em;
+	text-decoration: none;
+	color: black;
+    position: absolute;
+}
+.date {
+color: silver;
+margin-top: 0px;
+margin-bottom: 10px;
+}
